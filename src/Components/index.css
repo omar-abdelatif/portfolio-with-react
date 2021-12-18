@@ -1,0 +1,262 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body,
+.testmonials  {
+	background-color: #5f84a2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0;
+}
+p {
+	margin-bottom: 0;
+}
+.w-100 {
+	width: 100%;
+}
+.m-0 {
+	margin: 0;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ffffff;
+	transition: .3s all;
+	border-radius: 10px;
+}
+/* HEADER COMPONENT */
+.logo-name {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff !important;
+	font-family: Consolas, "Courier New", monospace, Cairo, Adobe Arabic,
+		Josefin, poppins, AlArabiya;
+}
+.profile-img {
+	text-align: center;
+	margin-top: 50px;
+}
+.profile-img img {
+	width: 310px;
+	height: 310px;
+	border-radius: 50%;
+}
+.social {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.face-btn {
+	background-color: #1778f2;
+	transition: 0.3s all;
+}
+.face-btn:hover {
+	background-color: #1e5599;
+}
+.github-btn {
+	background-color: #6e5494;
+	transition: 0.3s all;
+	margin: 0 20px;
+}
+.github-btn:hover {
+	background-color: #9c73da;
+}
+.whatsapp-btn {
+	background-color: #4caf50;
+	transition: 0.3s all;
+}
+.whatsapp-btn:hover {
+	background-color: #3a7a3c;
+}
+.btn {
+	padding: 15px 25px;
+}
+.btn i {
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+}
+/* WORK COMPONENT */
+.work, footer {
+	background-color: #194569;
+	padding: 50px 0;
+	margin-top: 30px;
+}
+.work-title,
+.testmonials-title,
+.recent-project-title {
+	text-align: center;
+	margin: 20px 0;
+}
+.work-title h1,
+.testmonials-title h1,
+.recent-project-title h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	font-family: Cairo;
+}
+.project {
+	margin-bottom: 30px;
+	transition: 0.3s all;
+}
+.project:hover {
+	transform: translateY(-20px);
+}
+.project-description {
+	background-color: #fff;
+	height: auto;
+	width: auto;
+	padding: 20px;
+	text-align: center;
+}
+.project-description h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+.git-link i {
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+}
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tags span {
+	font-size: 13px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: Consolas, "Courier New", monospace, Cairo, Adobe Arabic, Josefin, poppins, AlArabiya;
+	background-color: #5f84a2;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 4px 10px;
+}
+.seemore{
+	text-align: center;
+}
+.seemore a{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Consolas, "Courier New", monospace, Cairo, Adobe Arabic, Josefin, poppins, AlArabiya;
+}
+/* RECENT PROJECTS */
+.recent-project {
+	padding: 50px 0;
+}
+.project-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.project-item-img img{
+	width: 300px;
+	height: 167px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.project-item-content{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.project-item-content p{
+	padding: 10px 0;
+}
+.project-item-content .btn{
+	padding: 10px 20px;
+}
+/* SKILLS */
+.skills {
+	background-color: #194569;
+	padding: 50px 0;
+}
+.skill-icon svg{
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+}
+.section-title {
+	text-align: center;
+}
+.section-title h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	font-family: Cairo;
+}
+.skill-item{
+	text-align: center;
+}
+.skill-slider {
+	margin-top: 30px;
+}
+/* TESTMONIAL COMPONENT */
+.testmonials {
+	padding: 50px 0;
+}
+.testmonials-title{
+	margin: 0;
+}
+.testmonials-container {
+	background: linear-gradient(225deg, rgba(183,208,225,1) 29%, rgba(95,132,162,1) 61%);
+	width: auto;
+	height: auto;
+	padding-top: 30px;
+	border-radius: 10px;
+	border: none;
+}
+.carousel-title{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.carousel-title h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	font-family: Cairo;
+}
+.carousel-nav{ 
+	background: linear-gradient(225deg, rgba(95,132,162,1) 29%, rgba(183,208,225,1) 61%);
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+}
+/* FOOTER COMPONENT */
+footer{
+	margin: 0;
+	padding: 0;
+}
+.text {
+	color: #fff;
+	font-weight: 700;
+	font-family: Consolas, "Courier New", monospace, Cairo, Adobe Arabic,
+		Josefin, poppins, AlArabiya;
+	font-size: 25px;
+	padding: 10px;
+}
+.center {
+	text-align: center;
+	color: #fff;
+}
+.center p {
+	font-weight: 700;
+	font-family: cairo;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.center i {
+	margin: 0 10px;
+}
