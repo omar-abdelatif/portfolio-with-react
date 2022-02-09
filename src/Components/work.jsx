@@ -94,6 +94,12 @@ const Work = () => {
 				</div>
 			</div>
 			<hr />
+			<hr />
+			<hr />
+			<hr />
+			<hr />
+			<hr />
+			<hr />
 		</section>
 	);
 };
