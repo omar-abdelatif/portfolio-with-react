@@ -93,6 +93,7 @@ const Work = () => {
 					<a className="btn btn-primary" href="https://github.com/omar-abdelatif?tab=repositories">See More</a>
 				</div>
 			</div>
+			<hr />
 		</section>
 	);
 };
