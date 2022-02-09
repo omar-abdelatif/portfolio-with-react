@@ -1,6 +1,6 @@
 const Work = () => {
 	return (
-		<section className="work">
+		<section className="work" id="work">
 			<div className="work-title">
 				<h1>My Work</h1>
 			</div>

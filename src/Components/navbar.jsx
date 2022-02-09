@@ -11,6 +11,9 @@ class Nav extends React.Component {
 						</Link>
 						<ul className="navbar-nav my-auto">
 							<li className="nav-item">
+								<a href="#work" className='btn text'>My Work</a>
+							</li>
+							<li className="nav-item">
 								<a className="btn text" href="https://drive.google.com/file/d/1PLF0Hq3ZFIf9YZZQiZ5hKBSH4KC4KLi4/view?usp=sharing">
 									Download CV
 								</a>

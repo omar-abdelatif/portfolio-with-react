@@ -1,6 +1,6 @@
 {
-  "homepage": "https://omar-abdelatif.github.io/react-portfolio",
-  "name": "react-portfolio",
+  "homepage": "https://omar-abdelatif.github.io/portfolio-with-react",
+  "name": "portfolio-with-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

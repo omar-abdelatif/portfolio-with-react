@@ -16,7 +16,7 @@ const Header = () => {
 					</a>
 				</div>
 				<div className="whatsapp">
-					<a className="btn whatsapp-btn" href='https://web.whatsapp.com/'>
+					<a className="btn whatsapp-btn" href='https://api.whatsapp.com/send?phone=201062760141'>
 						<i class="bi bi-whatsapp"></i>
 					</a>
 				</div>
